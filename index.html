@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas2022</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video id="background-video" autoplay loop muted >
+        <source src="image/christmas.mp4" type="video/mp4">
+    </video>
+    <div id="main" class="flex row">
+        <div id="cover" class="flex column fade">
+            <h1 id="welcome">Would you like a nice song!</h1>
+            <div class="flex row">
+                <span id="start">Play A Song</span>
+                <span id="skip">Skip A Song</span>
+            </div>
+        </div>
+
+        <div id="content" class="hide fade">
+            
+            <h2>From SDD with love</h2>
+            <hr>
+            <h1>Wish you A Merry Christmans</h1>
+
+            <div id="musicbutton"></div>
+
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="image/1.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="image/2.jpg" >
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="image/3.jpg" >
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="image/4.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="image/5.jpg" >
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="image/6.jpg" >
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="image/7.jpg" >
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="image/8.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+
+                <!-- Next and previous buttons -->
+                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <!-- <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+
+            </div> -->
+
+            <hr>
+
+            <h1>and A Happy New Year 2023</h1>
+            <br>
+            <h3>here is another song for ya from Santa</h3>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z1rYmzQ8C9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </div>
+    <audio id="backgroundmusic" src="image/background_all_i_want_for_xmas.mp3" loop></audio>
+    <script src="javascript/javascript.js"></script>
+</body>
+</html>
